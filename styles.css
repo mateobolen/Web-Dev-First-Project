@@ -47,6 +47,17 @@ header {
     background-color: rgb(154, 191, 128, 0.5);
 }
 
+@media (max-width: 700px) {
+    #links {
+        flex-direction: column; /* stack vertically */
+    }
+
+    #deciduous,
+    #evergreen {
+        flex-basis: 100%;
+    }
+}
+
 footer {
     position: fixed;
     left: 0;
